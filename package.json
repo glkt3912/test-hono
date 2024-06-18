@@ -1,7 +1,10 @@
 {
   "name": "test-hono",
+  "module": "server/index.ts",
+  "type": "module",
   "scripts": {
-    "dev": "bun run --hot src/index.ts"
+    "start": "bun server/index.ts",
+    "dev": "bun --watch server/index.ts"
   },
   "dependencies": {
     "@hono/zod-validator": "^0.2.2",
