@@ -1,11 +1,1 @@
-To install dependencies:
-```sh
-bun install
-```
-
-To run:
-```sh
-bun run dev
-```
-
-open http://localhost:3000
+Reference: https://www.youtube.com/watch?v=jXyTIQOfTTk&t=4532s
